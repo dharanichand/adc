@@ -1,0 +1,59 @@
+*{
+  margin:0; 
+}
+
+nav h1{
+  font-size:2rem;
+  padding-bottom:70px;
+}
+
+#main-doc{
+  overflow-y:auto;
+  padding-left:200px;
+  text-align:justify;
+  padding-right:20px;
+  padding-bottom:10px;
+}
+
+a{
+  display:inline-block;
+text-decoration:none;
+  color:#555555;
+  padding:30px 0;
+}
+nav{
+  text-align:center;
+}
+#navbar{
+background-color:#eeeeee;
+  width:150px;
+  height:100vh;
+  position:fixed;
+}
+p{
+  padding:20px 0;
+}
+h1:not(.java,.menu){
+  padding:20px 0;
+}
+
+@media screen and (min-width:478px){ 
+
+#navbar{
+  width:200px;
+}
+#main-doc{
+  padding-left:250px;
+}
+
+}
+@media screen and (min-width:678px){ 
+
+#navbar{
+  width:300px;
+}
+#main-doc{
+  padding-left:350px;
+}
+
+}
